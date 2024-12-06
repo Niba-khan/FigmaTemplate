@@ -14,7 +14,6 @@ export default function Login() {
         />
       </div>
 
-      {/* Right Section - Login Form */}
       <div className="w-full lg:w-[500px] h-full flex flex-col items-center justify-center px-4 lg:px-0">
         <h1 className="text-[24px] lg:text-[36px] font-[500] text-[#000000] mb-4 lg:gap-[24px]">
           Log in to Exclusive
@@ -24,7 +23,6 @@ export default function Login() {
         </p>
 
         <form className="w-full max-w-[370px]">
-          {/* Email/Phone Input */}
           <div className="mb-6 border-b-2 border-opacity-70 border-[#000000] opacity-[40%]">
             <label>
               <input
@@ -35,8 +33,7 @@ export default function Login() {
               />
             </label>
           </div>
-
-          {/* Password Input */}
+          
           <div className="mb-6 border-b-2 border-opacity-70 border-[#000000] opacity-[40%]">
             <label>
               <input
@@ -47,8 +44,7 @@ export default function Login() {
               />
             </label>
           </div>
-
-          {/* Submit Button and Forget Password */}
+          
           <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
             <button
               type="submit"
